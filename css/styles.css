@@ -207,7 +207,8 @@ a.skip:focus{
 @media screen and (max-width:1494px){
   #volunterImages {
 
-    width:100%;
+    width:40%;
+    padding-bottum: 20px;
 
   
   }
