@@ -7,6 +7,7 @@ body {
 body{
   margin-top: 40px;
     background-color:#ffffff;
+    display: relative;
 }
 
 * {
@@ -14,6 +15,11 @@ body{
     padding: 0;
     margin: 0;
 
+}
+
+header {
+  display: absolute;
+  top: 0;
 }
 
 .navbar {
@@ -176,6 +182,17 @@ a.skip:focus{
 
   
   }
+   #educationImages {
+
+    width:100%;
+
+  
+  }
+  #volunteerImages{
+
+     width:100%;
+  
+  }
   img{
     width:100%;
   }
@@ -187,6 +204,17 @@ a.skip:focus{
 
     width:100%;
 
+  
+  }
+   #educationImages {
+
+    width:100%;
+
+  
+  }
+   #volunteerImages{
+
+     width:100%;
   
   }
   img{
@@ -202,6 +230,17 @@ a.skip:focus{
 
   
   }
+   #educationImages {
+
+    width:100%;
+
+  
+  }
+   #volunteerImages{
+
+     width:100%;
+  
+  }
   img{
     width:100%;
   }
@@ -215,18 +254,41 @@ a.skip:focus{
 
   
   }
+   #educationImages {
+
+    width:100%;
+
+  
+  }
+   #volunteerImages{
+
+     width:100%;
+  
+  }
   img{
     width:100%;
   }
 } 
 
-@media screen and (max-width:1494px){
+@media screen and (min-width:1494px){
   #mainImage {
 
     width:100%;
 
   
   }
+   #educationImages {
+
+    width:100%;
+
+  
+  }
+  #volunteerImages{
+
+     width:100%;
+  
+  }
+
   img{
     width:100%;
   }
@@ -260,104 +322,6 @@ a.skip:focus{
 }
 
 
-}
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-   #educationImages {
-
-    width:100%;
-
-  
-  }
-  img{
-    width:100%;
-  }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-   #educationImages {
-
-    width:100%;
-
-  
-  }
-  img{
-    width:100%;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-   #educationImages {
-
-    width:100%;
-
-  
-  }
-  img{
-    width:100%;
-  }
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-   #educationImages {
-
-    width:100%;
-
-  
-  }
-  img{
-    width:100%;
-  }
-} 
-
-@media screen and (max-width:1494px){
-  #educationImages {
-
-    width:100%;
-
-  
-  }
-  img{
-    width:100%;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 
 }
 @media screen and (max-width:1494px){
@@ -412,7 +376,7 @@ a.skip:focus{
 .fab fa-linkedin{
 
   width: 200px;
-  display: inline-block;
+  display: inline-block; 
 }
 
 
